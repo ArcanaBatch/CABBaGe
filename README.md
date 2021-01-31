@@ -3,11 +3,11 @@
 
 ### Classification Algorithm Based on a BAyesian method for GEnomics
 
-An application developed in Perl that allows the classification feature extraction and bootstrapping of genomic sequences, to improve data visualization and usefulness for genomic applications
+An application developed in Perl and Python that allows the development of classification models for genomic sequences, to improve data mining and usefulness of genomic applications.
 ____
 
-The application is built from three standalone modules:
-### Bayesian Classifier, Feature Extraction and Bootstrapping
+The application core is built from three standalone modules:
+### Bayesian Classifier, Feature Extractor and Feature Filter
 
 * The Bayesian Classifier, this module uses a Naive Bayes Classifier technique which is based on the so-called Bayesian theorem and is particularly suited when the dimensionality of the inputs is high. Despite its simplicity, Naive Bayes can often outperform more sophisticated classification methods. The module classifies genomic sequences into predetermined classes using a training genome matrix of known parameters (e.g. disease, host age, host sex, geographic location, drug resistance etc.)
 
@@ -23,7 +23,7 @@ The application is built from three standalone modules:
 
 
 ____
-* The Feature Extraction, the classification has the problem of high dimensionality of feature space due to the extensive information from genomic data. This high dimensionality of feature space is solved by feature selection and feature extraction methods and improves the performance of categorization. The feature selection and feature extraction techniques remove the irrelevant features from the test and reduce the dimensionality of feature space. The module accomplishes this task using a statistics test (Chi squared) extracting the most informative genes or genomic regions that make a sample belong to a particular class, the cutoff value for this procedure can be set by the user being the default p-value of 0.90.
+* The Feature Extractor; classification has the problem of high dimensionality of feature space due to the extensive information from genomic data. This high dimensionality of feature space is solved by feature selection and feature extraction methods that improve the performance of categorization. The feature selection and feature extraction techniques remove the irrelevant features from the test and reduce the dimensionality of feature space. The module accomplishes this task using a statistics test (e.g. Chi squared) extracting the most informative genes or genomic regions that make a sample belong to a particular class.
 
 ### How to
 ##### **_Note:_  In order for the CABBAGE to resume operation the input format must be comma-separated values (.csv) files**
@@ -33,17 +33,18 @@ ____
 
 > The _MetaData.csv_ file is a table that relates each of the samples form the _Training.csv_ to predefined classes.
 
-
+> Adicionally a statistical _Test_ must be chosen.
 ____
-* The Bootstrapping, the bootstrap is a tool for making statistical inferences when standard parametric assumptions are questionable. For the case of genomics, sample size can be an issue, such problems can be biased be the use on this module which, generates random samples from a population with a certain distribution this way unevenness of classes can be overcome.
+* The Feature Filter, this module is a tool for extracting the top n informative features extracted by the Feature Extractor module, thus the user determines the number of features to be contained in the developed clasification model.
 
 ### How to
 ##### **_Note:_  In order for the CABBAGE to resume operation the input format must be comma-separated values (.csv) files**
-> Three files are needed: _Training.csv, MetaData.csv and Query.csv_
+> One file is needed: _Probabilities.csv, MetaData.csv and Query.csv_
 
-> The _Training.csv_ file is a Boolean table that denotes the presence or absence of a certain "feature" which can either be a gene (Pan-genome*) or a genomic region denotated by a virtual probe (Virtual Hybridization*).
+> The _Probabilities.csv_ file is the output file from the Feature Extractor module, wich is a list of all the informative features for the model.
 
-> The _MetaData.csv_ file is a table that relates each of the samples form the _Training.csv_ to predefined classes.
+> Adicionally an _Out File name_ must be provide as well as the _Number Of Features_ for the final model.
+
 
 
 
