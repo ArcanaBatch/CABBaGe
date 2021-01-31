@@ -1,7 +1,7 @@
-Classification Algorithm Based on a BAyesian method for GEnomics
+
 ## CABBaGe    ![alt text](https://github.com/TorresRC/BayesianClassifier/blob/master/Icons/CABicon10.png)
 
-### Classification Algorithm Based on a Bayesian method for Genomics
+### Classification Algorithm Based on a BAyesian method for GEnomics
 
 An application developed in Perl that allows the classification feature extraction and bootstrapping of genomic sequences, to improve data visualization and usefulness for genomic applications
 ____
