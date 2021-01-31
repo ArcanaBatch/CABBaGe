@@ -1,5 +1,5 @@
 
-## CABBaGe    ![alt text](https://github.com/TorresRC/BayesianClassifier/blob/master/Icons/CABicon10.png)
+## CABBaGe    ![alt text](https://github.com/ArcanaBatch/CABBaGe/blob/main/Images/Imagen3.png)
 
 ### Classification Algorithm Based on a BAyesian method for GEnomics
 
