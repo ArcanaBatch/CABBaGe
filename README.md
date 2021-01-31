@@ -88,7 +88,7 @@ The `Samples` and `Gene/Probe` names should be determined by the user, the file 
 >| `Gene/Probe e` | 1 | 0 | 0 |
 >| `Gene/Probe f` | 1 | 1 | 1 |
 
-The `Samples` and `Gene/Probe` names should be determined by the user, nonetheless the Gene/Probe must be the same as the _Training.csv_ file used the file can contain as many rows and columns as needed.
+The `Samples` and `Gene/Probe` names should be determined by the user, nonetheless the Gene/Probe must be the same as the _Training.csv_ file used. The file can contain as many rows and columns as needed.
 
 ## GUI
 ### CABBaGeGUI is a wrap up developed in python for an easier user experience, at  present (February 2021) is only available for windows.
