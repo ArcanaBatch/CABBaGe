@@ -1,7 +1,7 @@
 
 ## ![alt text](https://github.com/ArcanaBatch/CABBaGe/blob/main/Images/Imagen3.png)
 
-### CABBaGe: Classification Algorithm Based on a BAyesian method for GEnomics
+## CABBaGe: Classification Algorithm Based on a BAyesian method for GEnomics
 
 An application developed in Perl and Python that allows the development of classification models for genomic sequences, to improve data mining and usefulness of genomic applications.
 ____
@@ -90,12 +90,13 @@ The `Samples` and `Gene/Probe` names should be determined by the user, the file 
 
 The `Samples` and `Gene/Probe` names should be determined by the user, nonetheless the Gene/Probe must be the same as the _Training.csv_ file used the file can contain as many rows and columns as needed.
 
-# GUI
+## GUI
 ### CABBaGeGUI is a wrap up developed in python for an easier user experience, at  present (February 2021) is only available for windows.
 This Graphic User Interface permits the users to quickly develop clasification models even if they are not familiarized with terminal commands shortening the learning curve.
 
-## Captions
+### Captions
 ![](https://github.com/ArcanaBatch/CABBaGe/blob/main/Images/captioncabbage.png)
 ![](https://github.com/ArcanaBatch/CABBaGe/blob/main/Images/captioncabbage2.png)
-# Examples
+## Example
+
 
