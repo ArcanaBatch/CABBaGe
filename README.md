@@ -1,4 +1,3 @@
-# CABBaGe
 Classification Algorithm Based on a BAyesian method for GEnomics
 ## CABBaGe    ![alt text](https://github.com/TorresRC/BayesianClassifier/blob/master/Icons/CABicon10.png)
 
