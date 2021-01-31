@@ -5,6 +5,14 @@
 
 An application developed in Perl and Python that allows the development of classification models for genomic sequences, to improve data mining and usefulness of genomic applications.
 ____
+## Dependencies 
+|software|version|required|
+|---|:---:|:---:|
+perl|5.30 or above|yes
+python|3.8 or above|only for GUI
+pillow|8.1 or above|only for GUI
+pandas|1.2.0 or above|only for GUI
+ttkthemes|3.1.0 or above|only for GUI
 
 The application core is built from three standalone modules:
 ### Bayesian Classifier, Feature Extractor and Feature Filter (only with GUICABBaGe)
