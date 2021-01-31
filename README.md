@@ -96,6 +96,6 @@ This Graphic User Interface permits the users to quickly develop clasification m
 
 ## Captions
 ![](https://github.com/ArcanaBatch/CABBaGe/blob/main/Images/captioncabbage.png)
-
+![](https://github.com/ArcanaBatch/CABBaGe/blob/main/Images/captioncabbage2.png)
 # Examples
 
