@@ -5,7 +5,7 @@
 
 An application developed in Perl and Python that allows the development of classification models for genomic sequences, to improve data mining and usefulness of genomic applications.
 ____
-## Dependencies 
+### Dependencies 
 |software|version|required|
 |---|:---:|:---:|
 perl|5.30 or above|yes
