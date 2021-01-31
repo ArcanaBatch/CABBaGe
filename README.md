@@ -7,7 +7,7 @@ An application developed in Perl and Python that allows the development of class
 ____
 
 The application core is built from three standalone modules:
-### Bayesian Classifier, Feature Extractor and Feature Filter
+### Bayesian Classifier, Feature Extractor and Feature Filter (only with GUICABBaGe)
 
 * The Bayesian Classifier, this module uses a Naive Bayes Classifier technique which is based on the so-called Bayesian theorem and is particularly suited when the dimensionality of the inputs is high. Despite its simplicity, Naive Bayes can often outperform more sophisticated classification methods. The module classifies genomic sequences into predetermined classes using a training genome matrix of known parameters (e.g. disease, host age, host sex, geographic location, drug resistance etc.)
 
@@ -90,6 +90,8 @@ The `Samples` and `Gene/Probe` names should be determined by the user, the file 
 
 The `Samples` and `Gene/Probe` names should be determined by the user, nonetheless the Gene/Probe must be the same as the _Training.csv_ file used the file can contain as many rows and columns as needed.
 
+# GUI
+### CABBaGeGUI is a wrap up developed in python for an easier user experience, at  present February 2021 is only available for windows.
 
 # Examples
 
