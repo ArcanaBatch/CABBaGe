@@ -95,28 +95,7 @@ The `Samples` and `Gene/Probe` names should be determined by the user, nonethele
 This Graphic User Interface permits the users to quickly develop clasification models even if they are not familiarized with terminal commands shortening the learning curve.
 
 ## Captions
-
+![](https://github.com/ArcanaBatch/CABBaGe/blob/main/Images/captioncabbage.png)
 
 # Examples
 
-Actual image of output graph OddsRatio Heat map
-
-
-![](https://github.com/TorresRC/CABBaGe/blob/master/Icons/oddsrheat.png)
-
-
-Actual image of output graph OddsRatio Feature map
-
-
-![](https://github.com/TorresRC/CABBaGe/blob/master/Icons/oddsrfeat.jpg)
-
-Actual image of output graph InformationGain Heat map
-
-
-![](https://github.com/TorresRC/CABBaGe/blob/master/Icons/infgheat.png)
-
-
-Actual image of output graph InformationGain Feature map
-
-
-![](https://github.com/TorresRC/CABBaGe/blob/master/Icons/infgfeat.jpg)
