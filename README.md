@@ -1,7 +1,7 @@
 
-## CABBaGe    ![alt text](https://github.com/ArcanaBatch/CABBaGe/blob/main/Images/Imagen3.png)
+## ![alt text](https://github.com/ArcanaBatch/CABBaGe/blob/main/Images/Imagen3.png)
 
-### Classification Algorithm Based on a BAyesian method for GEnomics
+### CABBaGe: Classification Algorithm Based on a BAyesian method for GEnomics
 
 An application developed in Perl and Python that allows the development of classification models for genomic sequences, to improve data mining and usefulness of genomic applications.
 ____
