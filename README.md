@@ -1,5 +1,5 @@
 
-## ![alt text](https://github.com/ArcanaBatch/CABBaGe/blob/main/Images/Imagen3.png)
+## ![alt text](https://github.com/ArcanaBatch/CABBaGe/blob/main/Images/bannerCab.png)
 
 ## CABBaGe: Classification Algorithm Based on a BAyesian method for GEnomics
 
