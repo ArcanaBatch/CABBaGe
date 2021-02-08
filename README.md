@@ -1,6 +1,6 @@
 
 ## ![alt text](https://github.com/ArcanaBatch/CABBaGe/blob/main/Images/banner5.png)
-
+ ![alt text](https://img.shields.io/badge/Version-2.01-brightgreen)
 ## CABBaGe: Classification Algorithm Based on a Bayesian method for Genomics
 
 An application developed in Perl and Python that allows the development of classification models for genomic sequences, to improve data mining and usefulness of genomic applications.
