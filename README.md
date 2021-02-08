@@ -15,6 +15,9 @@ pillow|8.1 or above|only for GUI
 pandas|1.2.0 or above|only for GUI
 ttkthemes|3.1.0 or above|only for GUI
 
+You can download VAMPhyRE from here:
+http://biomedbiotec.encb.ipn.mx/VAMPhyRE/download.php
+
 The application core is built from three standalone modules:
 ### Bayesian Classifier, Feature Extractor and Feature Filter (only with GUICABBaGe)
 
