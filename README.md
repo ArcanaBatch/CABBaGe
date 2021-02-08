@@ -99,7 +99,7 @@ The `Samples` and `Gene/Probe` names should be determined by the user, the file 
 The `Samples` and `Gene/Probe` names should be determined by the user, nonetheless the Gene/Probe must be the same as the _Training.csv_ file used. The file can contain as many rows and columns as needed.
 
 ## GUI
-### GUICABBaGe is a wrap up developed in python for an easier user experience, at  present (February 2021) is only available for windows.
+#### `GUICABBaGe is a wrap-up tool developed in python for an easier user experience, at  present (February 2021) is only available for Windows OS.`
 This Graphic User Interface permits the users to quickly develop clasification models even if they are not familiarized with terminal commands shortening the learning curve.
 
 ### Captions
