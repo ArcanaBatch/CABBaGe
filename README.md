@@ -15,10 +15,13 @@ pillow|8.1 or above|only for GUI
 pandas|1.2.0 or above|only for GUI
 ttkthemes|3.1.0 or above|only for GUI
 
-You can download VAMPhyRE from here:
-http://biomedbiotec.encb.ipn.mx/VAMPhyRE/download.php
+`Note: You can download VAMPhyRE from here:
+http://biomedbiotec.encb.ipn.mx/VAMPhyRE/download.php`
 
-The application core is built from three standalone modules:
+
+
+
+The CABBaGe application core is built from three modules:
 ### Bayesian Classifier, Feature Extractor and Feature Filter (only with GUICABBaGe)
 
 * The Bayesian Classifier, this module uses a Naive Bayes Classifier technique which is based on the so-called Bayesian theorem and is particularly suited when the dimensionality of the inputs is high. Despite its simplicity, Naive Bayes can often outperform more sophisticated classification methods. The module classifies genomic sequences into predetermined classes using a training genome matrix of known parameters (e.g. disease, host age, host sex, geographic location, drug resistance etc.)
