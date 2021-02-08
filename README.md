@@ -8,6 +8,7 @@ ____
 ### Dependencies 
 |software|version|required|
 |---|:---:|:---:|
+VAMPhyRE|1.0 or above|yes
 perl|5.30 or above|yes
 python|3.8 or above|only for GUI
 pillow|8.1 or above|only for GUI
