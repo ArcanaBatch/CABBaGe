@@ -145,7 +145,8 @@ In this step we preprocess the genomes to be classified using the filtered k-mer
 6)	Use the Bayesian Classifier Module in CABBaGe select the “Training.csv” as the Training File the “metadatakleb.csv” as the Meta Data File and the “Query.csv” as the query file.
 In this step a new folder will be created “ResultsBC” inside you will find two files the “Probabilities.csv” file and the “Prediction.csv” file in the latter you can find the classification made for the validation samples which should be as follows:
 
->| Sample | Class |	     Probability
+>| Sample | Class |	     Probability |
+>|---|:---:|:---:|
 >| NZ_CP017849.1 | 	Class variicola |	      6.39E+43
 >| NZ_CP054254.1 | 	Class variicola |	      6.48E+61
 >| NZ_CP018307.1 | 	Class variicola |	      2.27E+65
