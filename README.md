@@ -1,6 +1,4 @@
 
-holaaaaaaaa
-
 
 ## ![alt text](https://github.com/ArcanaBatch/CABBaGe/blob/main/Images/banner5.png)
  ![alt text](https://img.shields.io/badge/Version-2.01-brightgreen)
@@ -116,5 +114,52 @@ This Graphic User Interface permits the users to quickly develop clasification m
 ![](https://github.com/ArcanaBatch/CABBaGe/blob/main/Images/captioncabbage.png)
 ![](https://github.com/ArcanaBatch/CABBaGe/blob/main/Images/captioncabbage2.png)
 ## Example
+
+For this example, a collection of Klebsiella sp. genomes can be found in the Example folder, here a classification for different species is made among Variicola, Quasipneumoniae and Oxitoca strains.
+
+SCREENING PHASE
+1)	Preprocess the samples found in the “Training folder” using VAMPhyRe with the following commands:
+
+VH5cmdl –PROBEFILE vps13.txt –TARGETLIST TrainingList.txt –OUTFILE VH5outfile.txt -MISMATCHES 1 –STRAND both
+
+VHRP -VHDATAFILE VH5outfile.txt -PROBEFILE vps13.txt -TARGETLIST TrainingList.txt -GLOBALFILE Screening
+
+The main goal of this step is to obtain the “Screening.csv” file which contains all the information of the virtual hybridization.
+2)	Use the Feature Extractor Module in CABBaGe select the “Screening.csv” as the TrainingFile and the “metadatakleb.csv” as the Meta Data File, also select the statistical test as chi-square “X2” for this example.
+From this step a new folder will be created “ResultsFE” inside you will find the “Chi_SquareScreening.csv” file and the presence absence file which contains the informative value of each k-mer and the presence distribution of each one of them, respectively.
+
+FILTERING PHASE
+3)	Use the Feature Filter Module in CABBaGe select the “Chi_SquareScreening.csv” file as the Probabilities File, determine the Out File Name “Filtered” for this example and the number ok the top informative k-mers to be extracted “100” for this example.
+From this step a new folder will be created “ResultsFF” inside you will find the “Filtered100.csv” file and the “FilteredVPS.txt” file both contain the information of the top 100 k-mers selected to become the classification model.
+4)	Preprocess the samples found in the “Training folder” using VAMPhyRe with the following commands:
+VH5cmdl –PROBEFILE FilteredVPS.txt –TARGETLIST TrainingList.txt –OUTFILE VH5Filteredoutfile.txt -MISMATCHES 1 –STRAND both
+VHRP -VHDATAFILE VH5Fikteredoutfile.txt -PROBEFILE FilteredVPS.txt -TARGETLIST TrainingList.txt -GLOBALFILE Training
+
+After this process you will have the final “Training.csv” file which represents the classification model for this example.
+
+CLASSIFICATION PHASE
+5)	Preprocess the samples found in the “Validation folder” using VAMPhyRe with the following commands:
+VH5cmdl –PROBEFILE FilteredVPS.txt –TARGETLIST ValidationList.txt –OUTFILE VH5valoutfile.txt -MISMATCHES 1 –STRAND both
+VHRP -VHDATAFILE VH5valoutfile.txt -PROBEFILE FilteredVPS.txt -TARGETLIST ValidationList.txt -GLOBALFILE Query
+In this step we preprocess the genomes to be classified using the filtered k-mers previously obtained. At the end we have a “Query.csv” file with the presence absence information from the virtual hybridization.
+6)	Use the Bayesian Classifier Module in CABBaGe select the “Training.csv” as the Training File the “metadatakleb.csv” as the Meta Data File and the “Query.csv” as the query file.
+In this step a new folder will be created “ResultsBC” inside you will find two files the “Probabilities.csv” file and the “Prediction.csv” file in the latter you can find the classification made for the validation samples which should be as follows:
+
+Sample	         Class	                Probability
+>NZ_CP017849.1 	Class variicola	      6.39E+43
+>NZ_CP054254.1 	Class variicola	      6.48E+61
+>NZ_CP018307.1 	Class variicola	      2.27E+65
+>NZ_LR134235.1 	Class variicola	      4.23E+67
+>NZ_CP048379.1 	Class variicola	      6.70E+90
+>NZ_CP023478.1 	Class quasipnemoniae	 4.91E+122
+>NZ_CP026368.1 	Class quasipnemoniae	 6.11E+122
+>NZ_CP063902.1 	Class quasipnemoniae	 6.27E+124
+>NZ_CP012252.1 	Class quasipnemoniae	 5.40E+126
+>NZ_CP029437.1 	Class quasipnemoniae	 2.16E+127
+>NZ_CP026275.1 	Class oxytoca	        1.78E+131
+>NZ_LR134333.1 	Class oxytoca	        1.28E+132
+>NZ_CP020358.1 	Class oxytoca	        4.11E+132
+>NZ_CP026285.1 	Class oxytoca	        3.37E+133
+>NZ_CP026269.1 	Class oxytoca	        8.91E+133
 
 Under development...
