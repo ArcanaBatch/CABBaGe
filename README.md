@@ -145,21 +145,21 @@ In this step we preprocess the genomes to be classified using the filtered k-mer
 6)	Use the Bayesian Classifier Module in CABBaGe select the “Training.csv” as the Training File the “metadatakleb.csv” as the Meta Data File and the “Query.csv” as the query file.
 In this step a new folder will be created “ResultsBC” inside you will find two files the “Probabilities.csv” file and the “Prediction.csv” file in the latter you can find the classification made for the validation samples which should be as follows:
 
-Sample	         Class	                Probability
->NZ_CP017849.1 	Class variicola	      6.39E+43
->NZ_CP054254.1 	Class variicola	      6.48E+61
->NZ_CP018307.1 	Class variicola	      2.27E+65
->NZ_LR134235.1 	Class variicola	      4.23E+67
->NZ_CP048379.1 	Class variicola	      6.70E+90
->NZ_CP023478.1 	Class quasipnemoniae	 4.91E+122
->NZ_CP026368.1 	Class quasipnemoniae	 6.11E+122
->NZ_CP063902.1 	Class quasipnemoniae	 6.27E+124
->NZ_CP012252.1 	Class quasipnemoniae	 5.40E+126
->NZ_CP029437.1 	Class quasipnemoniae	 2.16E+127
->NZ_CP026275.1 	Class oxytoca	        1.78E+131
->NZ_LR134333.1 	Class oxytoca	        1.28E+132
->NZ_CP020358.1 	Class oxytoca	        4.11E+132
->NZ_CP026285.1 	Class oxytoca	        3.37E+133
->NZ_CP026269.1 	Class oxytoca	        8.91E+133
+>|Sample |  Class |	     Probability
+>|NZ_CP017849.1 | 	Class variicola |	      6.39E+43
+>|NZ_CP054254.1 | 	Class variicola |	      6.48E+61
+>|NZ_CP018307.1 | 	Class variicola |	      2.27E+65
+>|NZ_LR134235.1 | 	Class variicola	|      4.23E+67
+>|NZ_CP048379.1 | 	Class variicola |	      6.70E+90
+>|NZ_CP023478.1 | 	Class quasipnemoniae |	 4.91E+122
+>|NZ_CP026368.1 | 	Class quasipnemoniae |	 6.11E+122
+>|NZ_CP063902.1 | 	Class quasipnemoniae |	 6.27E+124
+>|NZ_CP012252.1 | 	Class quasipnemoniae |	 5.40E+126
+>|NZ_CP029437.1 | 	Class quasipnemoniae |	 2.16E+127
+>|NZ_CP026275.1 | 	Class oxytoca |	        1.78E+131
+>|NZ_LR134333.1 | 	Class oxytoca |	        1.28E+132
+>|NZ_CP020358.1 | 	Class oxytoca |	        4.11E+132
+>|NZ_CP026285.1 | 	Class oxytoca |	        3.37E+133
+>|NZ_CP026269.1 | 	Class oxytoca |	        8.91E+133
 
 Under development...
