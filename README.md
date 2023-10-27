@@ -179,4 +179,4 @@ In this step a new folder will be created “ResultsBC” inside you will find t
 
 As seen on the table above, each sample isa assigned to one of the possible classes provided this is due to the hard classification method used wich provides a reult in the classification decision boundary.
 
-In the example shown, microbial full genomes are tested nevertheless any set of DNA samples provided can be subjected to the this method.
+In the example shown, microbial full genomes are tested nevertheless any set of DNA samples provided can be subjected to the same principle.
