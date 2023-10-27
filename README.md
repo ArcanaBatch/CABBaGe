@@ -1,6 +1,8 @@
 
 
 ## ![alt text](https://github.com/ArcanaBatch/CABBaGe/blob/main/Images/banner5.png)
+![Perl](https://img.shields.io/badge/perl-%2339457E.svg?style=for-the-badge&logo=perl&logoColor=white)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
  ![alt text](https://img.shields.io/badge/Version-2.01-brightgreen)
 ## CABBaGe: Classification Algorithm Based on a Bayesian method for Genomics
 
