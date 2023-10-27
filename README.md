@@ -177,4 +177,6 @@ In this step a new folder will be created “ResultsBC” inside you will find t
 >| NZ_CP026285.1 | 	Class oxytoca |	        3.37E+133
 >| NZ_CP026269.1 | 	Class oxytoca |	        8.91E+133
 
-Under development...
+As seen on the table above, each sample isa assigned to one of the possible classes provided this is due to the hard classification method used wich provides a reult in the classification decision boundary.
+
+In the example shown, microbial full genomes are tested nevertheless any set of DNA samples provided can be subjected to the this method.
